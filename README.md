@@ -8,6 +8,9 @@ This tool is mainly based on:
     2. Virtuous.py: library of preprocessing functionalities
     3. testing_umami.py: prediction code
 
+### Authors
+    1. [Lorenzo Pallante](https://github.com/lorenzopallante)
+
 ---------------------
 ## 0. Prerequisites
 ---------------------
