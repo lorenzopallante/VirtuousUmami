@@ -70,6 +70,10 @@ The code will create a log file and an output folder containing:
     3. "result_labels": a txt file containing the predicted taste classes (umami/non-umami) for each processed smiles
     4. "predictions.csv": a csv summarising the results of the prediction
 
+
+**_In case the user would like to run the Virtuous.py and testing_umami.py scripts as stand-alone packages, it is suggested to read the following instructions_**
+
+
 -------------------
 ## 2. Virtuous Library
 -------------------
