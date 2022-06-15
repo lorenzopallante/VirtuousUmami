@@ -10,6 +10,8 @@ This tool is mainly based on:
 
 ### Authors
 1. [Lorenzo Pallante](https://github.com/lorenzopallante)
+2. [Aigli Korfiati](https://github.com/aiglikorfiati)
+3. [Lampros Androutsos](https://github.com/lamprosandroutsos)
 
 ---------------------
 ## 0. Prerequisites
