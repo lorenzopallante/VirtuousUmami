@@ -10,17 +10,17 @@ This tool is mainly based on:
 
 The repository also contains the following folders:
 
-1. data/
+- data/
 
 > Collecting the training and the test sets of the model, the prioritized list of molecular descriptors and the external DBs with their relative umami predictions
 
-2. src/
+- src/
 
-> files needed to effectively run the code 
+> Containing files needed to effectively run the code
 
-3. samples/
+- samples/
 
-> examples files to test the code
+> Including examples files to test the code
 
 
 ### Authors
