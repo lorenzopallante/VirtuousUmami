@@ -45,18 +45,24 @@ To learn how to run, just type:
 
 And this will print the help message of the program:
 
+'''
   usage: VirtuousUmami-master.py [-h] [-c COMPOUND] [-f FILE] [-d DIRECTORY] [-v]
 
   VirtuousUmami: ML-based tool to predict the umami taste
 
   optional arguments:
     -h, --help            show this help message and exit
+
     -c COMPOUND, --compound COMPOUND
                         query compound (allowed file types are SMILES, FASTA, Inchi, PDB, Sequence, Smarts, pubchem name)
+
     -f FILE, --file FILE  text file containing the query molecules
+
     -d DIRECTORY, --directory DIRECTORY
                         name of the output directory
+
     -v, --verbose         Set verbose mode
+'''
 
 To test the code you can submit an example txt file in the "samples" fodler (test.txt)      
 
