@@ -40,9 +40,9 @@ Otherwise, you'll need to run the following commands:
 Probably the only code you need.
 
 To learn how to run, just type:
-
+'''
     python VirtuousUmami-master.py --help
-
+'''
 usage: VirtuousUmami-master.py [-h] [-c COMPOUND] [-f FILE] [-d DIRECTORY] [-v]
 
 To test the code you can submit an example txt file in the "samples" fodler (test.txt)      
