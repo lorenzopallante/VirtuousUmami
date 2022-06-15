@@ -9,7 +9,7 @@ This tool is mainly based on:
     3. testing_umami.py: prediction code
 
 ### Authors
-[Lorenzo Pallante](https://github.com/lorenzopallante)
+1. [Lorenzo Pallante](https://github.com/lorenzopallante)
 
 ---------------------
 ## 0. Prerequisites
