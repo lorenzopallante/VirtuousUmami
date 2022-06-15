@@ -8,6 +8,21 @@ This tool is mainly based on:
     2. Virtuous.py: library of preprocessing functionalities
     3. testing_umami.py: prediction code
 
+The repository also contains the following folders:
+
+1. data/
+
+> Collecting the training and the test sets of the model, the prioritized list of molecular descriptors and the external DBs with their relative umami predictions
+
+2. src/
+
+> files needed to effectively run the code 
+
+3. samples/
+
+> examples files to test the code
+
+
 ### Authors
 1. [Lorenzo Pallante](https://github.com/lorenzopallante)
 2. [Aigli Korfiati](https://github.com/aiglikorfiati)
