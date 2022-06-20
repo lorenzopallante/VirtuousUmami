@@ -5,10 +5,6 @@
 [pypi_image]: https://img.shields.io/pypi/v/m3ba.svg
 [pypi_link]: https://pypi.org/project/m3ba/
 
-
-.. image:: https://img.shields.io/pypi/v/pyemma.svg
-   :target: https://pypi.python.org/pypi/pyemma
-
 The Virtuous Umami tool predict the umami/non-umami taste of query molecules based on their molecular structures.
 
 This tool is mainly based on:
