@@ -11,7 +11,7 @@ Output:
 
 Example run:
     For two class:
-        python3 testing_umami.py testing_dataset.txt 
+        python3 testing_umami.py testing_dataset.txt
 """
 import sys
 import os
@@ -67,7 +67,7 @@ def select_predictor(dataset_initial, features, models_zip, training_labels_file
     if result[0]:
         create_labels_file(result[1], training_labels_filename, output_folder, user, jobid, pid)
         os.remove(output_folder + "preprocessed_data.txt")
-        os.remove(output_folder + "preprocessed_dataset_0.tsv")  
+        os.remove(output_folder + "preprocessed_dataset_0.tsv")
         os.remove(output_folder + "info.txt")
         shutil.rmtree(output_folder + "models")
         return [1, "Successful completion!"]
@@ -991,8 +991,8 @@ def preprocess_specific(input_dataset, delimiter, output_folder):
     # Create output folder if it doesn't exist
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
-        
-    src_path = os.path.dirname(os.path.realpath(__file__)) + os.sep + "src" + os.sep
+
+    src_path = os.path.dirname(os.path.dirname(os.path.realpath(__file__))) + os.sep + "src" + os.sep
     umami_significant = open(src_path + 'umami_statistical_features.txt', 'r')
     umami_features = umami_significant.read()
     umami_features = umami_features.split('\n')
@@ -1018,11 +1018,11 @@ def preprocess_specific(input_dataset, delimiter, output_folder):
 
 
 if __name__ == "__main__":
-    
+
     testset_filename1 = sys.argv[1]
-    
+
     src_path = os.path.dirname(os.path.realpath(__file__)) + os.sep + "src" + os.sep
-    
+
     maximums_filename1 = src_path  + 'maximums.txt'
     minimums_filename1 = src_path  + 'minimums.txt'
     features_filename1 = src_path + 'features_list.txt'
@@ -1033,19 +1033,19 @@ if __name__ == "__main__":
     data_been_preprocessed_flag1 = 0
     has_features_header1 = 1
     has_samples_header1 = 1
-    
+
     training_labels_filename1 = src_path  + 'training_labels.txt'
     length_of_features_from_training_filename1 = src_path  + 'length_of_features_from_training.txt'
     tstamp = time.strftime('%Y_%m_%d_%H_%M')
     output_folder1 = os.getcwd() + os.sep + 'Output_folder_' + str(tstamp) + os.sep
     selected_comorbidities_string1 = ""
     initLogging()
-    
+
     delim = find_delimiter(testset_filename1)
     dataset = preprocess_specific(testset_filename1, delim, output_folder1)
     ret = run_all(dataset, maximums_filename1, minimums_filename1,
                   features_filename1, missing_imputation_method1, normalization_method1,
                   model_filename1, selection_flag1, data_been_preprocessed_flag1, selected_comorbidities_string1,has_features_header1, has_samples_header1, training_labels_filename1,
                   length_of_features_from_training_filename1, output_folder1)
-    
+
     logging.info("{}".format(ret[1]))
