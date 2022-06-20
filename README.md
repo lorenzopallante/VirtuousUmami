@@ -1,6 +1,6 @@
 # Virtuous Umami
 
-[![](https://img.shields.io/pypi/v/pyemma.svg])](https://pypi.org/project/m3ba/)
+[![](https://img.shields.io/pypi/v/m3ba.svg])](https://pypi.org/project/m3ba/)
 
 The Virtuous Umami tool predict the umami/non-umami taste of query molecules based on their molecular structures.
 
