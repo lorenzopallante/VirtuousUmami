@@ -1,5 +1,7 @@
 # Virtuous Umami
 
+![](https://raw.githubusercontent.com/greyli/flask-share/master/images/demo.png)
+
 The Virtuous Umami tool predict the umami/non-umami taste of query molecules based on their molecular structures.
 
 This tool is mainly based on:
