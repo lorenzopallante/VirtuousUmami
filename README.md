@@ -5,7 +5,9 @@
 [pypi_image]: https://img.shields.io/pypi/v/m3ba.svg
 [pypi_link]: https://pypi.org/project/m3ba/
 
-The VirtuousUmami tool predict the umami/non-umami taste of query molecules based on their molecular structures.
+The **VirtuousUmami** tool predict the umami/non-umami taste of query molecules based on their molecular structures.
+
+This tool was developed within the Virtuous Project (https://virtuoush2020.com/)
 
 [![Virtuous button][Virtuous_image]][Virtuous link]
 
