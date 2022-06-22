@@ -48,13 +48,6 @@ The repository is organized in the following folders:
 
 Enjoy!        
 
-----------------
-## Installation
-----------------
-
-    pip install VirtuousUmami
-
-
 ---------------------------
 ## How to use VirtuousUmami
 ---------------------------
