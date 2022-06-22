@@ -36,7 +36,7 @@ The code will create a log file and an output folder containing:
 
 """
 
-__version__ = '0.1.1'
+__version__ = '0.1.2'
 __author__ = 'Virtuous Consortium'
 
 
@@ -79,7 +79,7 @@ if __name__ == "__main__":
     # Stting files needed by the code
     code_path = os.path.realpath(__file__)
     root_dir_path = os.path.dirname(os.path.dirname(code_path))
-    src_path = root_dir_path + os.sep + "src" + os.sep
+    src_path = os.path.dirname(code_path) + os.sep + "src" + os.sep
     AD_file = src_path  + "umami_AD.pkl"
     maximums_filename1 = src_path  + 'maximums.txt'
     minimums_filename1 = src_path  + 'minimums.txt'
