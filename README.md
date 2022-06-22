@@ -5,9 +5,11 @@
 [pypi_image]: https://img.shields.io/pypi/v/m3ba.svg
 [pypi_link]: https://pypi.org/project/m3ba/
 
-The Virtuous Umami tool predict the umami/non-umami taste of query molecules based on their molecular structures.
+The VirtuousUmami tool predict the umami/non-umami taste of query molecules based on their molecular structures.
 
-The repository also contains the following folders:
+The VirtuousUmami is also implemented into a webserver interface at http://195.251.58.251:19009/#/virtuous-umami
+
+The repository is organized in the following folders:
 
 - VirtuousUmami/
 
@@ -89,3 +91,10 @@ The code will create a log file and an output folder containing:
     2. "descriptors.csv": a csv file collecting all the calculated molecular descriptors for each processed smiles
     3. "result_labels": a txt file containing the predicted taste classes (umami/non-umami) for each processed smiles
     4. "predictions.csv": a csv summarising the results of the prediction
+
+
+------------------
+## Acknowledgement
+------------------
+
+The present work has been developed as part of the VIRTUOUS project, funded by the European Union’s Horizon 2020 research and innovation program under the Marie Sklodowska-Curie-RISE Grant Agreement No 872181 (https://www.virtuoush2020.com/).
