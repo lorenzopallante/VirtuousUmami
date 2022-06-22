@@ -46,12 +46,16 @@ The repository is organized in the following folders:
         git clone https://github.com/lorenzopallante/VirtuousUmami
         cd VirtuousUmami
 
+2. Create conda environment:
 
-2. create conda environment from yml in the src/ folder
+        conda create -n myenv python=3.8
+        conda activate myenv
 
-        cd src/
-        conda env create -f VIRTUOUS.yml
-        conda activate VIRTUOUS
+3. Install required packages:
+
+        conda install -c conda-forge rdkit chembl_structure_pipeline
+        conda install -c mordred-descriptor mordred
+        pip install tqdm knnimpute joblib Cython scikit-learn==0.22.2 xmltodict
 
 ----------------
 ## Installation
