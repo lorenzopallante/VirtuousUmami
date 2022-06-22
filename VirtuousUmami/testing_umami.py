@@ -992,7 +992,7 @@ def preprocess_specific(input_dataset, delimiter, output_folder):
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
-    src_path = os.path.dirname(os.path.dirname(os.path.realpath(__file__))) + os.sep + "src" + os.sep
+    src_path = os.path.dirname(os.path.realpath(__file__)) + os.sep + "src" + os.sep
     umami_significant = open(src_path + 'umami_statistical_features.txt', 'r')
     umami_features = umami_significant.read()
     umami_features = umami_features.split('\n')
