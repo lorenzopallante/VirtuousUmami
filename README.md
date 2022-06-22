@@ -47,9 +47,9 @@ The repository is organized in the following folders:
 
     cd src/
 
-    conda env create -f VIRTUOUS.yml
-    
-    conda activate VIRTUOUS
+      conda env create -f VIRTUOUS.yml
+
+      conda activate VIRTUOUS
 
 ----------------
 ## Installation
