@@ -1,10 +1,5 @@
 # VirtuousUmami
 
-[![pypi button][pypi_image]][pypi_link]
-
-[pypi_image]: https://img.shields.io/pypi/v/m3ba.svg
-[pypi_link]: https://pypi.org/project/m3ba/
-
 The **VirtuousUmami** tool predict the umami/non-umami taste of query molecules based on their molecular structures.
 
 This tool was developed within the Virtuous Project (https://virtuoush2020.com/)
@@ -20,13 +15,10 @@ The VirtuousUmami is also implemented into a webserver interface at http://195.2
 The repository is organized in the following folders:
 
 - VirtuousUmami/
->Collecting python codes to run the umami prediction
+>Collecting python codes and sources files to run the umami prediction
 
 - data/
 > Collecting the training and the test sets of the model, the prioritized list of molecular descriptors and the external DBs with their relative umami predictions
-
-- src/
-> Containing files needed to effectively run the code
 
 - samples/
 > Including examples files to test the code
