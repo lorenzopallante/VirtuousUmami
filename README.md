@@ -40,16 +40,13 @@ The repository is organized in the following folders:
 1. Clone the `VirtuousUmami` repository from GitHub
 
         git clone https://github.com/lorenzopallante/VirtuousUmami
-
         cd VirtuousUmami
 
 
 2. create conda environment from yml in the src/ folder
 
         cd src/
-
         conda env create -f VIRTUOUS.yml
-
         conda activate VIRTUOUS
 
 ----------------
