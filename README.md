@@ -9,6 +9,8 @@ The VirtuousUmami tool predict the umami/non-umami taste of query molecules base
 
 The VirtuousUmami is also implemented into a webserver interface at http://195.251.58.251:19009/#/virtuous-umami
 
+![alt text](https://virtuoush2020.com/)
+
 The repository is organized in the following folders:
 
 - VirtuousUmami/
