@@ -1,8 +1,6 @@
 # VirtuousUmami
 
-The **VirtuousUmami** tool predict the umami/non-umami taste of query molecules based on their molecular structures.
-
-This tool was developed within the Virtuous Project (https://virtuoush2020.com/)
+The **VirtuousUmami** tool predict the umami/non-umami taste of query molecules based on their molecular structures. This tool was developed within the Virtuous Project (https://virtuoush2020.com/)
 
 [![Virtuous button][Virtuous_image]][Virtuous link]
 
@@ -33,21 +31,22 @@ The repository is organized in the following folders:
 ## Prerequisites
 ----------------
 
-1. Clone the `VirtuousUmami` repository from GitHub
-
-        git clone https://github.com/lorenzopallante/VirtuousUmami
-        cd VirtuousUmami
-
-2. Create conda environment:
+1. Create conda environment:
 
         conda create -n myenv python=3.8
         conda activate myenv
 
-3. Install required packages:
+2. Install required packages:
 
         conda install -c conda-forge rdkit chembl_structure_pipeline
         conda install -c mordred-descriptor mordred
         pip install tqdm knnimpute joblib Cython scikit-learn==0.22.2 xmltodict
+
+3. Clone the `VirtuousUmami` repository from GitHub
+
+        git clone https://github.com/lorenzopallante/VirtuousUmami
+
+Enjoy!        
 
 ----------------
 ## Installation
