@@ -11,7 +11,7 @@ The VirtuousUmami is also implemented into a webserver interface at http://195.2
 
 [![Virtuous button][Virtuous_image]][Virtuous link]
 
-[Virtuous_image]: https://www.google.com/imgres?imgurl=https%3A%2F%2Fvirtuoush2020.com%2Fwp-content%2Fuploads%2F2021%2F02%2FVirtuous_about_and_brochure.jpg&imgrefurl=https%3A%2F%2Fvirtuoush2020.com%2Fproject%2F&tbnid=Zan3pyi3YBHbqM&vet=12ahUKEwjAzryp6cD4AhUsW_EDHTA5BLkQMygFegUIARC7AQ..i&docid=fDpO0XK9HH5dKM&w=690&h=348&q=virtuous%20project&ved=2ahUKEwjAzryp6cD4AhUsW_EDHTA5BLkQMygFegUIARC7AQ
+[Virtuous_image]: https://virtuoush2020.com/wp-content/uploads/2021/02/Virtuous_about_and_brochure.jpg
 [Virtuous link]: https://virtuoush2020.com/
 
 The repository is organized in the following folders:
