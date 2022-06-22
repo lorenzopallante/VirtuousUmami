@@ -16,24 +16,19 @@ This tool was developed within the Virtuous Project (https://virtuoush2020.com/)
 
 The VirtuousUmami is also implemented into a webserver interface at http://195.251.58.251:19009/#/virtuous-umami
 
-## Repo Structure
-
+### Repo Structure
 The repository is organized in the following folders:
 
 - VirtuousUmami/
-
 >Collecting python codes to run the umami prediction
 
 - data/
-
 > Collecting the training and the test sets of the model, the prioritized list of molecular descriptors and the external DBs with their relative umami predictions
 
 - src/
-
 > Containing files needed to effectively run the code
 
 - samples/
-
 > Including examples files to test the code
 
 
@@ -69,7 +64,7 @@ The repository is organized in the following folders:
 ## How to use VirtuousUmami
 ---------------------------
 
-Probably the only code you need.
+The main code is `VirtuousUmami.py` within the VirtuousUmami folder.
 
 To learn how to run, just type:
 
