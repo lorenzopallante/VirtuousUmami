@@ -7,12 +7,14 @@
 
 The VirtuousUmami tool predict the umami/non-umami taste of query molecules based on their molecular structures.
 
-The VirtuousUmami is also implemented into a webserver interface at http://195.251.58.251:19009/#/virtuous-umami
-
 [![Virtuous button][Virtuous_image]][Virtuous link]
 
 [Virtuous_image]: https://virtuoush2020.com/wp-content/uploads/2021/02/Virtuous_about_and_brochure.jpg
 [Virtuous link]: https://virtuoush2020.com/
+
+The VirtuousUmami is also implemented into a webserver interface at http://195.251.58.251:19009/#/virtuous-umami
+
+## Repo Structure
 
 The repository is organized in the following folders:
 
