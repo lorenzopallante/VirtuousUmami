@@ -1,18 +1,18 @@
 """
 VIRTUOUS UMAMI
 
-The Virtuous Umami tool predict the umami/non-umami taste of quey molecules based on their molecular structures.
+The VirtuousUmami tool predict the umami/non-umami taste of quey molecules based on their molecular structures.
 
 This tool is mainly based on:
-    1. VirtuousUmami-main.py: a main script which calls the following functionalities
+    1. VirtuousUmami.py: a main script which calls the following functionalities
     2. Virtuous.py: library of preprocessing functionalities
     3. testing_umami.py: prediction code
 
 To learn how to run, just type:
 
-    python VirtuousUmami-master.py --help
+    python VirtuousUmami.py --help
 
-usage: VirtuousUmami-master.py [-h] [-s SMILES] [-f FILE] [-v VERBOSE]
+usage: VirtuousUmami.py [-h] [-s SMILES] [-f FILE] [-v VERBOSE]
 
 VirtuousUmami: ML-based tool to predict the umami taste
 
