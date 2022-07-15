@@ -30,9 +30,10 @@ Version history:
 - Version 1.5 - 16/03/2022: Return the five most similar compounds from the applicability domain
 - Version 1.6 - 28/03/2022: Adding nbits and radius parameters for fingerprint calculation in the DefineAD and TestAD function; adding different metrics on the TestAD
 - Version 1.7 - 05/05/2022: Adding query to pubchem in case of providing name of a compound; automatic detection of molecular input
+- Version 1.8 - 13/07/2022: Changing pybel import
 """
 
-__version__ = '1.7'
+__version__ = '1.8'
 __author__ = 'Lorenzo Pallante'
 
 import sys
@@ -47,11 +48,12 @@ import rdkit
 from rdkit import Chem, DataStructs
 from rdkit.Chem import AllChem
 from rdkit.Chem import Descriptors
-import pybel
+#from openbabel import pybel
 import urllib.parse
 import urllib.request
 import sys
 import xmltodict
+
 
 # disable printing warning from RDKit
 rdkit.RDLogger.DisableLog('rdApp.*')
@@ -240,15 +242,6 @@ def Calc_Mordred (smiles, ignore_3D=False):
     """
     # check smile and generating RDKit molecule from smiles
     mol = ReadMol(smiles, verbose=False)
-
-    #######################################################
-    # TO BE REVISED --> 7 molecules of the DB failed with "Bad Conformed Id"
-    # build 3D coordinates if you want to compute 3D features as well
-    #if not ignore_3D:
-    #    mol=Chem.AddHs(mol)
-    #    Chem.AllChem.EmbedMolecule(mol, useRandomCoords=True, maxAttempts=5000)
-    #    Chem.AllChem.UFFOptimizeMolecule(mol)
-    ######################################################
 
     # Mordred descriptors
     calc = Calculator(descriptors, ignore_3D=ignore_3D)
