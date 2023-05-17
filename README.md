@@ -1,8 +1,9 @@
 # VirtuousUmami
 
 The **VirtuousUmami** tool predict the umami/non-umami taste of query molecules based on their molecular structures. 
->The VirtuousUmami is also implemented into a webserver interface at http://195.251.58.251:19009/#/virtuous-umami
+>Pallante, L., Korfiati, A., Androutsos, L., Stojceski, F., Bompotas, A., Giannikos, I., Raftopoulos, C., Malavolta, M., Grasso, G., Mavroudi, S., Kalogeras, A., Martos, V., Amoroso, D., Piga, D., Theofilatos, K., & Deriu, M. A. (2022). Toward a general and interpretable umami taste predictor using a multi-objective machine learning approach. Scientific Reports, 12(1), 21735. https://doi.org/10.1038/s41598-022-25935-3
 
+The VirtuousUmami is also implemented into a webserver interface at http://195.251.58.251:19009/#/virtuous-umami
 
 This tool was developed within the Virtuous Project (https://virtuoush2020.com/)
 
@@ -11,7 +12,6 @@ This tool was developed within the Virtuous Project (https://virtuoush2020.com/)
 [Virtuous_image]: https://virtuoush2020.com/wp-content/uploads/2021/02/V_logo_h.png
 [Virtuous link]: https://virtuoush2020.com/
 
-The VirtuousUmami is also implemented into a webserver interface at http://195.251.58.251:19009/#/virtuous-umami
 
 ### Repo Structure
 The repository is organized in the following folders:
