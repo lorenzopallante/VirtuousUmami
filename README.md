@@ -13,6 +13,7 @@ This tool was developed within the Virtuous Project (https://virtuoush2020.com/)
 [Virtuous link]: https://virtuoush2020.com/
 
 
+----------------
 ### Repo Structure
 The repository is organized in the following folders:
 
